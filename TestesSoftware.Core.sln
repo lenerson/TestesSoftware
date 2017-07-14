@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A3FBD545-640E-483D-8034-B9BE57CB0780}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{C1E89A3F-82EB-4268-9734-004850EEDD80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestesSoftware.Infra.Repository", "src\TestesSoftware.Infra.Repository\TestesSoftware.Infra.Repository.csproj", "{6E0EAAB1-8FD5-46B8-B46C-86F506FE09E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{00EFF717-187F-42F9-AC83-EE2DA5B48C9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestesSoftware.Domain.Models", "src\TestesSoftware.Domain.Models\TestesSoftware.Domain.Models.csproj", "{0B5666AE-713E-45EA-AF96-219C6EB5A9D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E0EAAB1-8FD5-46B8-B46C-86F506FE09E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E0EAAB1-8FD5-46B8-B46C-86F506FE09E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E0EAAB1-8FD5-46B8-B46C-86F506FE09E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E0EAAB1-8FD5-46B8-B46C-86F506FE09E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B5666AE-713E-45EA-AF96-219C6EB5A9D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B5666AE-713E-45EA-AF96-219C6EB5A9D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B5666AE-713E-45EA-AF96-219C6EB5A9D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B5666AE-713E-45EA-AF96-219C6EB5A9D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C1E89A3F-82EB-4268-9734-004850EEDD80} = {A3FBD545-640E-483D-8034-B9BE57CB0780}
+		{6E0EAAB1-8FD5-46B8-B46C-86F506FE09E4} = {C1E89A3F-82EB-4268-9734-004850EEDD80}
+		{00EFF717-187F-42F9-AC83-EE2DA5B48C9F} = {A3FBD545-640E-483D-8034-B9BE57CB0780}
+		{0B5666AE-713E-45EA-AF96-219C6EB5A9D1} = {00EFF717-187F-42F9-AC83-EE2DA5B48C9F}
+	EndGlobalSection
+EndGlobal
