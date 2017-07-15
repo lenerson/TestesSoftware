@@ -8,7 +8,7 @@ namespace TestesSoftware.Tests.xUnit.Unidade
         [Fact]
         public void CriarCliente()
         {
-            var cliente = Cliente.Factory.CriarNovo(1, "Lenerson", "V. Nunes", "lenerson.nunes@gmail.com");
+            var cliente = Cliente.Factory.Criar(1, "Lenerson", "V. Nunes", "lenerson.nunes@gmail.com");
 
             Assert.Equal(1, cliente.Id);
             Assert.Equal("Lenerson", cliente.Nome);

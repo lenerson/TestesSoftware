@@ -10,7 +10,7 @@
 
         public static class Factory
         {
-            public static Cliente CriarNovo(int id, string nome, string sobrenome, string email)
+            public static Cliente Criar(int id, string nome, string sobrenome, string email)
             {
                 return new Cliente
                 {

@@ -1,12 +1,12 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using NUnit.Framework;
 using TestesSoftware.Domain.Models;
 
-namespace TestesSoftware.Tests.MSTest.Unidade
+namespace TestesSoftware.Tests.NUnit.Unidade
 {
-    [TestClass]
+    [TestFixture]
     public sealed class ClienteTest
     {
-        [TestMethod]
+        [Test]
         public void CriarCliente()
         {
             var cliente = Cliente.Factory.Criar(1, "Lenerson", "V. Nunes", "lenerson.nunes@gmail.com");

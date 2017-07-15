@@ -10,3 +10,9 @@
 /src/TestesSoftware.Tests.xUnit/bin/Debug/netcoreapp1.1
 /src/TestesSoftware.Tests.xUnit/obj/Debug/netcoreapp1.1
 /src/TestesSoftware.Tests.xUnit/obj
+/.vs/TestesSoftware.MSTest/v15/*.suo
+/.vs/TestesSoftware.NUnit/v15/*.suo
+/.vs/TestesSoftware.xUnit/v15/*.suo
+/src/TestesSoftware.Tests.NUnit/bin/Debug/netcoreapp1.1
+/src/TestesSoftware.Tests.NUnit/obj/Debug/netcoreapp1.1
+/src/TestesSoftware.Tests.NUnit/obj

@@ -17,7 +17,7 @@ namespace TestesSoftware.Infra.Repository.Repositories
                     var reader = command.ExecuteReader();
                     while (reader.Read())
                     {
-                        result.Add(Cliente.Factory.CriarNovo(
+                        result.Add(Cliente.Factory.Criar(
                             reader.GetInt32(0),
                             reader.GetString(1),
                             reader.GetString(2),
