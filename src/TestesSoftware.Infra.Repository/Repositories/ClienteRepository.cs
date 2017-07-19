@@ -12,7 +12,7 @@ namespace TestesSoftware.Infra.Repository.Repositories
 
             using (var connection = Connection.Open())
             {
-                using (var command = new SqlCommand("SELECT Id, Nome, Sobrenome, Emails FROM dbo.Clientes", connection))
+                using (var command = new SqlCommand("SELECT Id, Nome, Sobrenome, Email FROM dbo.Clientes", connection))
                 {
                     var reader = command.ExecuteReader();
                     while (reader.Read())
